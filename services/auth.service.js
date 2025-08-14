@@ -1,5 +1,8 @@
 const axios = require('axios');
 const { cache } = require('../utils/cache');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const BASE_URL = process.env.POLLUTION_API_BASE_URL || 'https://be-recruitment-task.onrender.com';
 const USERNAME = process.env.POLLUTION_API_USERNAME;

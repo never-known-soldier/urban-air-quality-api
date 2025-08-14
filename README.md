@@ -37,6 +37,7 @@ The endpoint then intelligently filters corrupted or non-city entries, adds shor
     npm start
     ```
     Access the endpoint at: `http://localhost:3000/cities`
+
     To test with a specific country: `http://localhost:3000/cities?country=PL`
 
 ---
